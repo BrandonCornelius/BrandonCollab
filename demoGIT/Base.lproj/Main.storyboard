@@ -81,6 +81,7 @@
                                 <state key="normal" title="REGISTER NOW"/>
                                 <connections>
                                     <action selector="registButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yfC-ID-V2e"/>
+                                    <segue destination="Lg2-JJ-D4C" kind="show" identifier="regisToprofile" id="6GI-9Q-5Ce"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pre Register" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZJR-0c-tCg">
