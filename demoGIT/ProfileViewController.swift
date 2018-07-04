@@ -10,6 +10,7 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    @IBOutlet weak var usernameTxt: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
