@@ -13,6 +13,7 @@
 		CA29623320ECAD8400DE853B /* demoGIT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CA29623120ECAD8400DE853B /* demoGIT.xcdatamodeld */; };
 		CA29623520ECAD8600DE853B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA29623420ECAD8600DE853B /* Assets.xcassets */; };
 		CA29623820ECAD8600DE853B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA29623620ECAD8600DE853B /* LaunchScreen.storyboard */; };
+		CA29624020ECC72200DE853B /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA29623F20ECC72200DE853B /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		CA29623420ECAD8600DE853B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA29623720ECAD8600DE853B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA29623920ECAD8600DE853B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA29623F20ECC72200DE853B /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				CA29622A20ECAD8400DE853B /* AppDelegate.swift */,
 				CA29622C20ECAD8400DE853B /* ViewController.swift */,
 				CA29622E20ECAD8400DE853B /* Main.storyboard */,
+				CA29623F20ECC72200DE853B /* ProfileViewController.swift */,
 				CA29623420ECAD8600DE853B /* Assets.xcassets */,
 				CA29623620ECAD8600DE853B /* LaunchScreen.storyboard */,
 				CA29623920ECAD8600DE853B /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				CA29622D20ECAD8400DE853B /* ViewController.swift in Sources */,
 				CA29623320ECAD8400DE853B /* demoGIT.xcdatamodeld in Sources */,
+				CA29624020ECC72200DE853B /* ProfileViewController.swift in Sources */,
 				CA29622B20ECAD8400DE853B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
