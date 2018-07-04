@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextViewDelegate {
 
     
     @IBOutlet weak var username: UITextField!
@@ -20,12 +20,14 @@ class ViewController: UIViewController {
         performSegue(withIdentifier: "regisToprofile", sender: self)
         
     }
+    
+    var myString = String()
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let passProfile = segue.destination as! ProfileViewController
-            passProfile.usernameLbl = username.text!
-            passProfile.emailLbl = email.text!
-            passProfile.ageLbl = age.text!
-            passProfile.genderLbl = gender.text!
+        passProfile.name = username.text!
+            passProfile.email = email.text!
+            passProfile.age = age.text!
+            passProfile.gender = gender.text!
     }
     
     

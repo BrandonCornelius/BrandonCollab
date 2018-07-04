@@ -10,6 +10,11 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
+    var name: String = ""
+    var email: String = ""
+    var age: String = ""
+    var gender: String = ""
+    
     @IBOutlet weak var usernameLbl: UILabel!
     @IBOutlet weak var emailLbl: UILabel!
     @IBOutlet weak var ageLbl: UILabel!
@@ -17,7 +22,10 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        usernameLbl.text = name
+        emailLbl.text = email
+        ageLbl.text = age
+        genderLbl.text = gender
         // Do any additional setup after loading the view.
     }
 
