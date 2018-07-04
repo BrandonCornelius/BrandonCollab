@@ -22,9 +22,10 @@ class ViewController: UIViewController {
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let passProfile = segue.destination as! ProfileViewController
-            passProfile.username = username.text
-            passProfile.email = email.text
-        
+            passProfile.usernameLbl = username.text!
+            passProfile.emailLbl = email.text!
+            passProfile.ageLbl = age.text!
+            passProfile.genderLbl = gender.text!
     }
     
     

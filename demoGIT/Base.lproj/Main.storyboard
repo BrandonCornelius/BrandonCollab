@@ -135,34 +135,6 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Gtg-Tq-vnp">
-                                <rect key="frame" x="16" y="134" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CwN-Xa-MiP">
-                                <rect key="frame" x="16" y="234" width="343" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="V0K-AK-7n5">
-                                <rect key="frame" x="16" y="331" width="336" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sPc-v6-ihY">
-                                <rect key="frame" x="16" y="430" width="336" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f1z-8N-6Jb">
                                 <rect key="frame" x="159" y="396" width="57" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -175,10 +147,10 @@
                         <viewLayoutGuide key="safeArea" id="nxb-y0-GwF"/>
                     </view>
                     <connections>
-                        <outlet property="ageTxt" destination="V0K-AK-7n5" id="8ee-px-DZP"/>
-                        <outlet property="emailTxt" destination="CwN-Xa-MiP" id="6rf-gH-Ute"/>
-                        <outlet property="genderTxt" destination="sPc-v6-ihY" id="C7D-9a-gCO"/>
-                        <outlet property="usernameTxt" destination="Gtg-Tq-vnp" id="has-zR-bHg"/>
+                        <outlet property="ageLbl" destination="GPM-yp-SPo" id="Ixh-M1-fT1"/>
+                        <outlet property="emailLbl" destination="9mz-z7-FTa" id="EAe-fX-rog"/>
+                        <outlet property="genderLbl" destination="f1z-8N-6Jb" id="fQB-YJ-8lL"/>
+                        <outlet property="usernameLbl" destination="VlQ-c9-Z4k" id="P43-Zt-b3b"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Lxm-NK-CPj" userLabel="First Responder" sceneMemberID="firstResponder"/>

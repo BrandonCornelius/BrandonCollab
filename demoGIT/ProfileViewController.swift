@@ -10,10 +10,10 @@ import UIKit
 
 class ProfileViewController: UIViewController {
 
-    @IBOutlet weak var usernameTxt: UITextField!
-    @IBOutlet weak var emailTxt: UITextField!
-    @IBOutlet weak var ageTxt: UITextField!
-    @IBOutlet weak var genderTxt: UITextField!
+    @IBOutlet weak var usernameLbl: UILabel!
+    @IBOutlet weak var emailLbl: UILabel!
+    @IBOutlet weak var ageLbl: UILabel!
+    @IBOutlet weak var genderLbl: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
